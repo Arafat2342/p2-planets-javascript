@@ -1,0 +1,65 @@
+::-webkit-scrollbar {
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:   #273136 ; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #3c474b;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background:#4f5d63;
+
+
+  }
+
+
+  .text {
+      text-align: center;
+      font-family: monospace;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(24); 
+  }
+  @keyframes typing {
+      from {width: 0;text-align: center;}
+  }
+
+
+body {
+    background-color:#273136; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  button {
+    background: linear-gradient(90deg, #00ffcc, #0099ff);
+    color: white;
+    margin: 20%;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5), 0 0 30px rgba(0, 153, 255, 0.5);
+    text-transform: uppercase;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.8), 0 0 40px rgba(0, 153, 255, 0.8), 0 0 60px rgba(0, 153, 255, 1);
+    transform: scale(1.05);
+  }
+  
+ button:focus {
+    outline: none;
+  }
+  
