@@ -11,15 +11,11 @@
     <center>
 
     <div>
-        <h1 class="text" id="text">Number of Sub-planet/moons website</h1> <h4 id="tap" onclick="number()" class="text">Click to see Planets number</h4>
-        <button onclick="earth(1)">Earth</button>
+        <button onclick="earth(59)">numbers</button>
         <p id="ear1" class="text"></p>
         <p id="ear2" class="text"></p>
-        <p id="ear" class="text"></p>
         <br>
-        <button onclick="jupiter(9)">Jupiter</button>
-        <p id="jup"></p>
-        <p id="jup1" class="text"></p>
+        <button onclick="jupiter()">MUlTiplication</button>
         <p id="jup2" class="text"></p>
         <br>
     </div>
@@ -37,29 +33,26 @@
             document.getElementById("ear1").innerHTML ="The value of a is: " + a;
 
             if( b === undefined){
-         var   b = 1;
+         var   b = 2**9;
          document.getElementById("ear2").innerHTML ="The value of b is: " + b;
 
             }
-            document.getElementById("ear").innerHTML = "The number of sub-planets of earth is : "+a*b;
-         };
 
-         function jupiter(a,b){
-            document.getElementById("jup1").innerHTML ="The value of a is: " + a;
+        
+      };
+      function jupiter(){
 
-            if( b === undefined){
-         var b = 10;
-         document.getElementById("jup2").innerHTML ="The value of b is: " + b;
+var a = 59;
+  if( b === undefined){
+      
+var   b = 2**9;
 
-            }
-            document.getElementById("jup").innerHTML = "The number of sub-planets of jupiter is : "+ ((a*b) + 5);
-         };
+document.getElementById("jup2").innerHTML ="The result of multiplication of a & b is: " + a*b;
+  
+  }
 
-         function mars(a,b){
 
-         return a + b;
-         };
-         document.write(mars(1,1))
+};
 
       </script>
 </body>

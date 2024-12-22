@@ -16,20 +16,6 @@
 
   }
 
-
-  .text {
-      text-align: center;
-      font-family: monospace;
-      width: 100%;
-      white-space: nowrap;
-      overflow: hidden;
-      animation: typing 3s steps(24); 
-  }
-  @keyframes typing {
-      from {width: 0;text-align: center;}
-  }
-
-
 body {
     background-color:#273136; 
     color: white;
